@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background: rgb(213, 213, 213);
+}
+
+span{
+    margin-right: 40px;
+}
+
+label,input{
+    font-size: 20px;
+}
+
+canvas{
+    margin-bottom: 20px;
+    background-color: white ;
+    border-radius: 30px;
+    border: black 2px solid;
+}
+
+input[type="button"]{
+    margin-top: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}

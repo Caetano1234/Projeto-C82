@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto C82</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Paint</h1>
+    <canvas height="800" width="800" id="Canvas"></canvas>
+    <br>
+    <span>
+        <label>Raio: </label>
+        <input type="number" id="inputRaio" value="10">
+    </span>
+    <span>
+        <label>Cor: </label>
+        <input type="color" id="inputCor" value="red">
+    </span>
+    <span>
+        <label>Largura: </label>
+        <input type="number" id="inputLargura" value="3">
+    </span>
+
+    <br>
+
+    <input type="button" value="Limpar" id="limpar" onclick="limpar()">
+
+    <script src="app.js"></script>
+</body>
+</html>
